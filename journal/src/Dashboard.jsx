@@ -8,7 +8,7 @@ export const Dashboard = () => {
     justify-content: center;
     align-items: center;
     height: 30vh;
-    background-color: grey;
+    background-color: red;
   `;
 
   const Bets = styled.div`

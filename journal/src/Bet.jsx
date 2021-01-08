@@ -11,6 +11,7 @@ export const Bet = () => {
   const Font = styled.div`
     font-family: "Merriweather Sans";
     font-weight: Bold;
+    color: black;
   `;
 
   const Border = styled(Font)`
@@ -39,16 +40,31 @@ export const Bet = () => {
   const Date = styled(Border)`
     height: 100px;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
   `;
 
   const ConfidenceLevel = styled(Border)`
     height: 100px;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
   `;
 
   const Description = styled(Border)`
     height: 200px;
     width: 100%;
+    padding: 24px;
+    line-height: 22px;
+    font-weight: 400;
+    overflow: hidden;
+    text-align: justify;
   `;
 
   const Options = styled(Border)`
@@ -62,11 +78,24 @@ export const Bet = () => {
   const Delete = styled(Border)`
     height: 100px;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #eb5757;
   `;
 
   const WeighIn = styled(Border)`
     height: 100px;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #27ae60;
+    color: white;
   `;
 
   return (
@@ -87,7 +116,7 @@ export const Bet = () => {
       </Description>
       <Options>
         <Delete>DELETE</Delete>
-        <WeighIn>Weigh-In</WeighIn>
+        <WeighIn>WEIGH-IN</WeighIn>
       </Options>
     </BetStyle>
   );
