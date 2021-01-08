@@ -1,23 +1,15 @@
 import "../node_modules/milligram/dist/milligram.css";
 import "./App.css";
-import logo from "./logo.png";
+import { Switch, Route, Link } from "react-router-dom";
+import { Homepage } from "./Homepage";
+import { Dashboard } from "./Dashboard";
 
 function App() {
   return (
-    <div className="homepage row">
-      <div className="column column-20">
-        <div className="title">
-          <img src={logo} alt="logo" />
-        </div>
-      </div>
-      <div className="column">
-        <div className="content">
-          <a href="/asdf" className="button button-black">
-            Get Started
-          </a>
-        </div>
-      </div>
-    </div>
+    <Switch>
+      <Route exact path="/" component={Homepage} />
+      <Route path="/home" component={Dashboard} />
+    </Switch>
   );
 }
 

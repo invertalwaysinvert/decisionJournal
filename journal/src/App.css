@@ -10,12 +10,8 @@
   height: 100vh;
 }
 
-.title-a {
-  transform: rotate(90deg);
-}
-
-.title-b {
-  transform: rotate(90deg);
+.logo {
+  height: 100vh;
 }
 
 .content {
@@ -23,6 +19,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .button-black {
