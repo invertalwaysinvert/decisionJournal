@@ -8,7 +8,7 @@ export const Dashboard = () => {
     justify-content: center;
     align-items: center;
     height: 30vh;
-    background-color: red;
+    background-color: lightgrey;
   `;
 
   const Bets = styled.div`
@@ -23,7 +23,7 @@ export const Dashboard = () => {
   return (
     <div className="page">
       <Toolbar>
-        <button className="button button-black">Predict</button>
+        <button className="">Predict</button>
       </Toolbar>
       <Bets>
         <Bet />

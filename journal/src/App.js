@@ -1,6 +1,5 @@
-import "../node_modules/milligram/dist/milligram.css";
 import "./App.css";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { Homepage } from "./Homepage";
 import { Dashboard } from "./Dashboard";
 

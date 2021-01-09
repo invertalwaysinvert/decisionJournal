@@ -6,19 +6,13 @@ export const Bet = () => {
     height: 600px;
     width: 600px;
     margin: 50px;
-  `;
-
-  const Font = styled.div`
     font-family: "Merriweather Sans";
     font-weight: Bold;
     color: black;
+    border: 1px solid lightgrey;
   `;
 
-  const Border = styled(Font)`
-    border: 1px solid black;
-  `;
-
-  const Title = styled(Border)`
+  const Title = styled.div`
     height: 200px;
     width: 100%;
     font-size: 56px;
@@ -29,7 +23,7 @@ export const Bet = () => {
     align-items: center;
   `;
 
-  const Info = styled(Border)`
+  const Info = styled.div`
     height: 100px;
     width: 100%;
     display: flex;
@@ -37,7 +31,7 @@ export const Bet = () => {
     border-width: 0px;
   `;
 
-  const Date = styled(Border)`
+  const Date = styled.div`
     height: 100px;
     width: 50%;
     display: flex;
@@ -47,7 +41,7 @@ export const Bet = () => {
     font-size: 32px;
   `;
 
-  const ConfidenceLevel = styled(Border)`
+  const ConfidenceLevel = styled.div`
     height: 100px;
     width: 50%;
     display: flex;
@@ -57,7 +51,7 @@ export const Bet = () => {
     font-size: 32px;
   `;
 
-  const Description = styled(Border)`
+  const Description = styled.div`
     height: 200px;
     width: 100%;
     padding: 24px;
@@ -67,7 +61,7 @@ export const Bet = () => {
     text-align: justify;
   `;
 
-  const Options = styled(Border)`
+  const Options = styled.div`
     height: 100px;
     width: 100%;
     display: flex;
@@ -75,7 +69,7 @@ export const Bet = () => {
     border-width: 0px;
   `;
 
-  const Delete = styled(Border)`
+  const Delete = styled.div`
     height: 100px;
     width: 50%;
     display: flex;
@@ -83,10 +77,11 @@ export const Bet = () => {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    color: #eb5757;
+    // color: #eb5757;
+    color: black;
   `;
 
-  const WeighIn = styled(Border)`
+  const WeighIn = styled.div`
     height: 100px;
     width: 50%;
     display: flex;
@@ -94,7 +89,8 @@ export const Bet = () => {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    background-color: #27ae60;
+    // background-color: #27ae60;
+    background-color: lightgrey;
     color: white;
   `;
 

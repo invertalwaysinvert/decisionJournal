@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 export const Homepage = () => {
   return (
-    <div className="homepage row">
-      <div className="column column-20">
+    <div className="homepage">
+      <div className="">
         <div className="title">
           <img src={logo} alt="logo" id="logo" />
         </div>
       </div>
-      <div className="column">
+      <div className="">
         <div className="content">
           <Link to="/home">
-            <button className="button button-black">Get Started</button>
+            <button className="">Get Started</button>
           </Link>
         </div>
       </div>
